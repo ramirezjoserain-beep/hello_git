@@ -57,6 +57,12 @@ Se empieza a utilizar GIT con el comando:
         determinado archivo tanto que se le ha quitado, como
         lo que se le ha agregado. Comando:
             git diff "nombre archivo"
+    **COMANDO CHECKOUT
+        Permite moverse de una rama a otra con el codigo
+        que identifica a esa rama en especifico y volver 
+        a la ultima rama que se guardo o cambiar a otra 
+        rama que se haya guardado en el pasado.
+            git checkout 80e19f3a547fbf7ab4d06390da07c00bc34c849a
 https://www.youtube.com/watch?v=3GymExBkKjE
 min 42.10
 min 1:00:00
