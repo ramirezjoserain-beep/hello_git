@@ -114,10 +114,17 @@ Se empieza a utilizar GIT con el comando:
             git merge Uni -m "Algun comentario que deje
             en claro que se esta haciendo o porque se 
             hizo el merge"
+    **CONFLICTO EN GIT
+        Ocurre cuando se intenta hacer un merge y en 
+        ambas ramas se modifico lo mismo en un determinado
+        archivo, git al ver esto no permite el merge porque
+        no sabe cual cambio es el que debe guardar o sea el
+        correcto.
 https://www.youtube.com/watch?v=3GymExBkKjE
 min 42.10
 min 1:00:00
 min 1:26:00
+min 2:03:00
 """
 print("Ahora edite el fichero")
 print("Otro edit al fichero")
