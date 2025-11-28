@@ -103,6 +103,17 @@ Se empieza a utilizar GIT con el comando:
         Permite cambiar de una rama a otra dentro del
         repositorio
             git switch 'nombre de la rama a cambiar'
+    **COMANDO MERGE
+        Permite fusionar o combinar contenidos entre
+        ramas por ejemplo: hay dos ramas Cole y Uni
+        si se quiere fusionar el contenido de la rama 
+        Cole con el de la Uni(por supuesto se debe estar
+        en la rama a la cual se le quiere adjuntar el 
+        contenido de la que se esta nombrando en el 
+        comando) se introduce el comando:
+            git merge Uni -m "Algun comentario que deje
+            en claro que se esta haciendo o porque se 
+            hizo el merge"
 https://www.youtube.com/watch?v=3GymExBkKjE
 min 42.10
 min 1:00:00
