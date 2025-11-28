@@ -92,6 +92,17 @@ Se empieza a utilizar GIT con el comando:
         version 1.1 o 1.2, etc. Le da un nombre especifico
         que sirve de referencia al usuario y se escribe asi:
             git tag nombre del tag (clase_1)
+            git tag (muestra todas las tag que hay)
+            git checkout tags/'nombre del tag al que te 
+            quieres mover'
+    **COMANDO BRANCH
+        Permite la creacion de nuevas ramas con el 
+        comando:
+            git branch 'nombre de la rama'
+    **COMANDO SWITCH
+        Permite cambiar de una rama a otra dentro del
+        repositorio
+            git switch 'nombre de la rama a cambiar'
 https://www.youtube.com/watch?v=3GymExBkKjE
 min 42.10
 min 1:00:00
