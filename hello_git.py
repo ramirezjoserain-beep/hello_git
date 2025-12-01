@@ -120,6 +120,30 @@ Se empieza a utilizar GIT con el comando:
         archivo, git al ver esto no permite el merge porque
         no sabe cual cambio es el que debe guardar o sea el
         correcto.
+    **COMANDO STASH
+        Permite guardar un archivo el cual no se le quiere
+        hacer commit ya que esta incompleto, pero se busca
+        guardarlo como esta hasta ese momento para continuar
+        mas adelante, solo le queda guardado al usuario que
+        utiliza el comando y una vez usado, git permite 
+        cambiar de rama.
+            git stash
+            git stash list (Ver los stash)
+            git stash pop  (Para volver a lo guardado)
+            git stash drop (elimina el stash guardado)
+            git stash --untracked o git stash -u
+                guarda archivos que no estan en el stage
+                que recien se crearon y git no los tiene 
+                guardados.
+    **BORRAR RAMA
+        Para borrar un rama se tiene que ingresar el 
+        comando:
+            BORRADO SEGURO 
+            git branch -d "nombre de la rama"
+            git branch --delete "nombre de la rama"
+            BORRADO FORZADO
+            git brach -D
+            git branch --delete --force
 https://www.youtube.com/watch?v=3GymExBkKjE
 min 42.10
 min 1:00:00
