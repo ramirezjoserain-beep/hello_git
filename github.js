@@ -31,10 +31,29 @@
             git nos mostraria si hay o no conflicto.
             Con el comando:
                 git config pull.rebase false #merge
-
+    **GITHUB FORK
+        Permite a un usuario de github que no tiene
+        permisos para modificar un repositorio
+        descargarselo o crear un nuevo repositorio 
+        propio(del usuario que no tiene permisos e intenta
+        modificar un repositorio) para asi hacer las 
+        modificaciones que quiera sin afectar el repositorio
+        original.
+            Se le da al boton que esta al lado del boton
+            de star en github
+    **Sincronizacion con el repositorio original
+        Permite sincronizar los ultimos cambios realizados
+        al repositorio original con el repositorio basado
+        en el original que se copio. P.E. Copie el repo
+        Programm de un usuario de github con el fork, pero
+        el usuario le aplico cambios al proyecto, con syncr
+        agregas los cambios del original a la copia.
+            boton que esta debajo del boton verde de code 
+            en github.
 
 
 
 https://www.youtube.com/watch?v=3GymExBkKjE
 min 3:00:00
+min 3:30:00
 */ 
