@@ -5,7 +5,7 @@
     para crear la clave es:
         ssh-keygen -t ed25519 -C "youremail@example.com"
         ssh -T git@github.com
-# Attempts to ssh to GitHub
+        # Attempts to ssh to GitHub
     **COMANDO REMOTE
         Comando que sirve para vincular el repositorio
         local con el de github con el comando:
@@ -25,7 +25,7 @@
         con el comando:
             git pull origin main
         ****NOTA****
-            Es importante al comento de realizar el
+            Es importante al momento de realizar el
             pull utilizar el merge para evitar problemas
             dado que de haber alguno, al hacer el merge
             git nos mostraria si hay o no conflicto.
@@ -50,6 +50,42 @@
         agregas los cambios del original a la copia.
             boton que esta debajo del boton verde de code 
             en github.
+    **PULL REQUEST CONTRIBUTE
+        Opcion que permite a otros usuarios de git 
+        solicitar al creador de algun repositorio 
+        que agregue contenido modificado sobre ese
+        repositorio para que forme parte del repositorio
+        original.
+            Boton que se encuentra al debajo del boton
+            verde de code y a la izquierda de syncro
+            luego sale un boton verde que dice pull request
+    **HERRAMIENTA GRAFICA
+        Herramientas graficas que no necesitan los comandos
+        para realizar las acciones.
+            gitkraken
+    **METODOLOGIA GITHUB FLOW , GIT FLOW
+        Se puede utilizar este programa para trabajar
+        con el git flow desde terminal con:
+            brew install git-flow
+    **COMANDO CHERRY-PICK
+        Permite traer algun commit en especifico 
+        de alguna rama, a la rama que se desea.
+            git cherry-pick codigo/tag del commit 
+            git cherry-pick --continue
+            git cherry-pick --abort
+    **COMANDO REBASE
+        Permite traer una rama y modificar el 
+        historial de commit por ejemplo, al pensar 
+        tenemos una rama buena para culminar el 
+        proyecto sobre otra que no lo esta.
+            git rebase "nombre de la rama"
+            git rebase -i "nombre de la rama"
+            git rebase --continue
+            git rebase --abort
+    **HERRAMIENTAS
+        github pages #host para paginas web
+        github actions #Automatizar procesos
+
 
 
 
